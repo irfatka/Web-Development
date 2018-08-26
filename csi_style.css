@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  font-family: Georgia, sans-serif;
+}
+
+nav{
+  float: right;
+}
+
+.head_img{
+  position: fixed;
+
+}
+.navid{
+  margin-right: 5px;
+  margin-top: 5px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-left: 632px;
+  padding-bottom: 10px;
+  background: white;
+  font-size: 20px;
+  display: block;
+  overflow: hidden;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.navid a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration-color: white;
+  font-size: 17px;
+}
+
+.navid a:hover {
+  color: blue;
+  border-style: ridge;
+}
+
+.navid a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+#about{
+  height: 740px;
+}
+
+.left{
+  float: left;
+  width: 50%;
+  margin:auto;
+  display: inline-block;
+}
+
+.right{
+  float: right;
+  width: 50%;
+  margin: auto;
+  display: inline-block;
+}
+
+.hr_color{
+  color: blue;
+}
+#event{
+  height: 300px;
+}
+.row {
+    display: table; /* Make the container element behave like a table */
+    width: 100%;
+}
+
+.img1 {
+    display: table-cell; /* Make elements inside the container behave like table cells */
+}
+
+
+.footer {
+   font-size: 20px;
+   width: 100%;
+   background-color: black;
+   color: white;
+   text-align: center;
+   display:inline-block;
+   padding:0px;
+   margin:0px;
+}
+
